@@ -1,0 +1,5 @@
+# Skibot - Die Ski-Resort-Karte des Lieblingsresorts anzeigen
+
+*Dieser Bot wurde ausschließlich im Rahmen eines wissenschaftlichen Kontexts entwickelt. Er veranschaulicht die Integration eines Webdienstes in einen Chatbot von Google DialogFlow. In diesem Fall erfolgt die Kommunikation mit der API von [skimap.org](https://skimap.org), die zur Verfügung gestellten Daten sind unter [CC BY-NC-SA 3.0 US](https://creativecommons.org/licenses/by-nc-sa/3.0/us/) lizensiert.* 
+
+Zum Setup ist es notwendig, zunächst einen neuen Bot auf DialogFlow zu erstellen. Über das Zahnradsymbol und einen anschließenden Klick auf "Export and Import" wird die Option "Import from ZIP" sichbar. Importieren Sie hier die Datei `Skibot.zip`. Nach erfolgreichem Import müssen die Dateien `index.js` und `package.json` durch die entsprechenden Gegenstücke aus dem Ordner `fulfillment` dieses Repos ersetzt werden. Sollte der Bot nun noch nicht funktionieren, muss zusätzlich das verknüpfte Firebase-Abo auf den Tarif "Blaze" aktualisiert werden. Anderenfalls ist eine Kommunikation des Webservices mit externen Webdiensten eventuell nicht möglich.
